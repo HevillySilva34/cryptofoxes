@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#4d3a91">
+  <meta name="description" content="CryptoFoxes — procedural generation collectibles.">
+  <title>CryptoFoxes — Procedural Generation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sky sky-one" aria-hidden="true"></div>
+  <div class="sky sky-two" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="CryptoFoxes home">
+      <span class="brand-main">CRYPTO<span> 111</span><br>FOXES</span>
+      <span class="brand-sub">— PROCEDURAL GENERATION —</span>
+    </a>
+    <nav class="socials" aria-label="Social links">
+      <a href="#community">Twitter <b>◆</b></a>
+      <a href="#community">Discord <b>◆</b></a>
+      <a href="#marketplace">OpenSea <b>◆</b></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="machine wrap" aria-label="Foxdex spin machine">
+      <div class="reel" aria-label="Collectible preview">
+        <div class="reel-card ticket-card"><span class="ticket-art">◉<br>≋</span></div>
+        <div class="reel-card"><span class="mini-fox">🐸</span></div>
+        <div class="reel-card"><span class="item-icon">⚒</span></div>
+        <div class="reel-card"><span class="item-icon">⌁</span></div>
+        <div class="reel-card"><span class="item-icon">♟</span></div>
+        <div class="reel-card"><span class="item-icon">◕</span></div>
+      </div>
+      <div class="spin-panel">
+        <div class="stats">
+          <span>Balance <b>Ξ 0</b></span>
+          <span>Tickets <b>Sold Out!</b></span>
+        </div>
+        <button class="spin-button" id="spinButton">SPIN ONE <strong id="spinCount">0</strong></button>
+      </div>
+      <nav class="tabs" aria-label="Main navigation">
+        <a href="#foxdex">Foxdex</a><a href="#rules">Rules</a><a href="#migration">Migration</a><a href="#staking">Staking</a>
+      </nav>
+    </section>
+
+    <div class="site-panel wrap">
+      <section class="bundles section" id="bundles">
+        <div class="section-heading"><h1>SPECIAL BUNDLES</h1><span class="sparkles">✦ · ·</span><span class="minted">11,111 / 11,111 Minted</span></div>
+        <p>For every 2000 tickets sold, there is a special bundle with 3 different assets. It means you can get them if you spin a ticket from this bundle.<br>For example, the ticket #1637 can get you Toy-Story assets.</p>
+        <div class="bundle-row">
+          <div class="bundle-ticket">▤<b>TICKET</b></div>
+          <div class="bundle-thumb"><span>🦊</span></div>
+          <div class="bundle-thumb dark"><span>🐸</span></div>
+          <div class="bundle-thumb gold"><span>🦊</span></div>
+          <div class="bundle-thumb city"><span>🦊</span></div>
+          <div class="bundle-thumb extra"><span>✦</span></div>
+        </div>
+        <div class="slider-controls"><button aria-label="Previous bundle">◀</button><span>·</span><button aria-label="Next bundle">▶</button></div>
+      </section>
+
+      <div class="content-layout">
+        <aside class="side-nav">
+          <a href="#foxdex">1. CryptoFoxes</a><a href="#about">2. About us</a><a href="#faq">3. FAQ</a>
+        </aside>
+        <div class="content">
+          <section class="section" id="foxdex">
+            <div class="section-heading"><h2>CRYPTOFOXES</h2><span class="sparkles">✦ · ·</span></div>
+            <p>The CryptoFoxes are the cutest things minted in the Ethereum blockchain.</p>
+            <p>All the assets are handcrafted, then the CryptoFoxes are generated with a Python script in 400x400 GIF and scaled to 400x400 and minted on a <a href="#marketplace">Smart Contract ERC721</a> on Ethereum Blockchain. Each one is unique and crafted with its traits. Some of them are super rare! There will be a limited supply of 11,111.</p>
+            <p class="last-adopted">Last adopted foxes:</p>
+            <div class="fox-grid">
+              <article class="fox-card"><img src="assets/fox-blue.png" alt="Blue CryptoFox"><span># 4794</span></article>
+              <article class="fox-card"><img src="assets/fox-purple.png" alt="Purple CryptoFox"><span># 7834</span></article>
+              <article class="fox-card"><img src="assets/fox-orange.png" alt="Orange CryptoFox"><span># 9544</span></article>
+              <article class="fox-card"><img src="assets/fox-city.png" alt="City CryptoFox"><span># 9963</span></article>
+              <article class="fox-card"><img src="assets/fox-glitch.png" alt="Glitch CryptoFox"><span># 68</span></article>
+              <article class="fox-card"><img src="assets/fox-grey.png" alt="Grey CryptoFox"><span># 66</span></article>
+            </div>
+          </section>
+
+          <section class="section about" id="about">
+            <div class="section-heading"><h2>ABOUT US</h2><span class="sparkles">✦ · ·</span></div>
+            <p>We are 4 French friends, 2 designers and 2 developers. That's a good match, right? We work remotely on CryptoFoxes (thanks COVID) and Discord is our main software for working together. It's our first project together, it's been fucking fun!</p>
+            <p>He created <a href="#community">@MindStudio</a> to help NFT artists to develop their smart contracts and websites.</p>
+            <div class="team-grid">
+              <img src="assets/team-1.png" alt="Team member avatar"><img src="assets/team-2.png" alt="Team member avatar"><img src="assets/team-3.png" alt="Team member avatar"><img src="assets/team-4.png" alt="Team member avatar">
+            </div>
+          </section>
+
+          <section class="section faq" id="faq">
+            <div class="section-heading"><h2>FAQ</h2><span class="sparkles">✦ · ·</span></div>
+            <div class="faq-list">
+              <details><summary>How to adopt?</summary><p>Follow the project community channels for announcements and adoption information.</p></details>
+              <details><summary>How can I trade or resell my CryptoFoxes?</summary><p>Your collectibles can be traded through supported marketplaces.</p></details>
+              <details><summary>What can I do with my CryptoFoxes?</summary><p>Keep your Foxes, show your collection, and follow future project updates.</p></details>
+              <details><summary>Are the tickets linked to their bundle?</summary><p>Yes. Each ticket belongs to the bundle associated with its number.</p></details>
+              <details><summary>Can I keep my ticket and not use it?</summary><p>Ticket details and use conditions are announced by the project.</p></details>
+              <details><summary>What happens to my CryptoFoxes assets if I sell or modify it?</summary><p>Marketplace transfers and asset changes follow the smart contract rules.</p></details>
+              <details><summary>Can I use the Foxdex's rewards multiple times?</summary><p>Reward availability depends on the rules of each bundle.</p></details>
+              <details><summary>Will the Foxdex's rewards change?</summary><p>Check the official community announcements for the latest information.</p></details>
+              <details><summary>Can I change my ticket's bundle with a future bundle?</summary><p>Tickets remain associated with their original bundle.</p></details>
+              <details><summary>How the Re-Spin system works?</summary><p>Further details are shared through the project community.</p></details>
+            </div>
+            <h3 class="more">More questions?</h3>
+            <p>You can come and ask it on <a href="#community">Discord</a>, we will answer with pleasure.</p>
+            <p>If you are still reading, it's because you are surely the mother of one of the 4 of us or you are interested in the project and for that we thank you.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>© 2021, CryptoFoxes</footer>
+  <a class="back-top" href="#home" aria-label="Back to top">⬆</a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
